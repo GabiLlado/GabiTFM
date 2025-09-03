@@ -1,0 +1,12 @@
+# No subir variables sensibles
+.env
+
+# Otros comunes de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.venv/
+.envrc

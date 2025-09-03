@@ -1,0 +1,155 @@
+{
+  "limit": 5,
+  "offset": 0,
+  "total": {
+    "value": 2,
+    "relation": "eq"
+  },
+  "results": [
+    {
+      "id": "NK-23ezoxpLv8HcfmqdmemyFo",
+      "caption": "ANITA TREGO",
+      "schema": "Person",
+      "properties": {
+        "createdAt": [
+          "2005-12-29"
+        ],
+        "sector": [
+          "RPH"
+        ],
+        "topics": [
+          "debarment"
+        ],
+        "country": [
+          "us"
+        ],
+        "birthDate": [
+          "1960-08-15"
+        ],
+        "address": [
+          "136 S FELLOWSHIP RD, MAPLE SHADE, NJ 08052",
+          "136 S. FELLOWSHIP ROAD, MAPLE SHADE, NJ 08052",
+          "MAPLE SHADE, NJ 08052, USA"
+        ],
+        "lastName": [
+          "TREGO"
+        ],
+        "name": [
+          "TREGO-CAMPION, ANITA",
+          "ANITA TREGO"
+        ],
+        "firstName": [
+          "ANITA"
+        ],
+        "addressEntity": [
+          "addr-050a326901fa20de056e21689c9be2b8fbe45792"
+        ],
+        "position": [
+          "PHARMACIST (PHARMACY)"
+        ]
+      },
+      "datasets": [
+        "us_hhs_exclusions",
+        "us_sam_exclusions",
+        "us_nj_med_exclusions"
+      ],
+      "referents": [
+        "us-mednj-4a9aa972fb2d79a2344e79f99be6da574e8d28a4",
+        "us-fed-excl-anita-trego-08052-maple-shade"
+      ],
+      "target": true,
+      "first_seen": "2024-05-08T21:57:02",
+      "last_seen": "2025-07-13T22:06:01",
+      "last_change": "2024-11-08T09:17:44"
+    },
+    {
+      "id": "us-medpa-d1f0cbf4d4129eb9fec1f8b488805d84edc1f932",
+      "caption": "Anita Trego",
+      "schema": "Person",
+      "properties": {
+        "address": [
+          "NJ, NJ"
+        ],
+        "lastName": [
+          "Trego"
+        ],
+        "topics": [
+          "debarment"
+        ],
+        "title": [
+          "RPh"
+        ],
+        "addressEntity": [
+          "addr-3b8df2652a131c1a75033b54b72eeae036b6f88f"
+        ],
+        "firstName": [
+          "Anita"
+        ],
+        "country": [
+          "us"
+        ],
+        "name": [
+          "Anita Trego"
+        ],
+        "idNumber": [
+          "RP035513L"
+        ]
+      },
+      "datasets": [
+        "us_pa_med_exclusions"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-10-01T13:25:04",
+      "last_seen": "2025-07-13T13:25:06",
+      "last_change": "2024-11-29T13:25:04"
+    }
+  ],
+  "facets": {
+    "topics": {
+      "label": "Topics",
+      "values": [
+        {
+          "name": "debarment",
+          "label": "Debarred entity",
+          "count": 2
+        }
+      ]
+    },
+    "datasets": {
+      "label": "Data sources",
+      "values": [
+        {
+          "name": "us_hhs_exclusions",
+          "label": "US Health and Human Sciences Inspector General Exclusions",
+          "count": 1
+        },
+        {
+          "name": "us_nj_med_exclusions",
+          "label": "US New Jersey Ineligible Medicaid Providers",
+          "count": 1
+        },
+        {
+          "name": "us_pa_med_exclusions",
+          "label": "US Pennsylvania Medicheck list",
+          "count": 1
+        },
+        {
+          "name": "us_sam_exclusions",
+          "label": "US SAM Procurement Exclusions",
+          "count": 1
+        }
+      ]
+    },
+    "countries": {
+      "label": "Countries",
+      "values": [
+        {
+          "name": "us",
+          "label": "United States of America",
+          "count": 2
+        }
+      ]
+    }
+  }
+}
