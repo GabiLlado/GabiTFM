@@ -1,0 +1,726 @@
+{
+  "limit": 1,
+  "offset": 0,
+  "total": {
+    "value": 1563,
+    "relation": "eq"
+  },
+  "results": [
+    {
+      "id": "Q124822037",
+      "caption": "Yevgeni Putin",
+      "schema": "Person",
+      "properties": {
+        "topics": [
+          "role.rca",
+          "sanction.linked"
+        ],
+        "alias": [
+          "Yevgeni Mihailoviç Putin",
+          "Евгений Путин",
+          "Evgeny Mikhailovich Putin"
+        ],
+        "notes": [
+          "Russian urologist, first cousin of Vladimir Putin"
+        ],
+        "citizenship": [
+          "ru",
+          "suhh"
+        ],
+        "birthDate": [
+          "1933-02-25"
+        ],
+        "wikidataId": [
+          "Q124822037"
+        ],
+        "name": [
+          "Yevgeni Putin",
+          "Евгений Михайлович Путин",
+          "Evgeny Putin"
+        ],
+        "deathDate": [
+          "2024-03"
+        ],
+        "gender": [
+          "male"
+        ]
+      },
+      "datasets": [
+        "ann_graph_topics",
+        "wikidata"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-03-17T00:48:26",
+      "last_seen": "2025-08-26T01:49:59",
+      "last_change": "2025-01-25T00:47:49"
+    }
+  ],
+  "facets": {
+    "topics": {
+      "label": "Topics",
+      "values": [
+        {
+          "name": "poi",
+          "label": "Person of interest",
+          "count": 1492
+        },
+        {
+          "name": "sanction",
+          "label": "Sanctioned entity",
+          "count": 767
+        },
+        {
+          "name": "role.pep",
+          "label": "Politician",
+          "count": 614
+        },
+        {
+          "name": "corp.disqual",
+          "label": "Disqualified",
+          "count": 423
+        },
+        {
+          "name": "export.control",
+          "label": "Export controlled",
+          "count": 381
+        },
+        {
+          "name": "role.rca",
+          "label": "Close Associate",
+          "count": 78
+        },
+        {
+          "name": "role.oligarch",
+          "label": "Oligarch",
+          "count": 38
+        },
+        {
+          "name": "mil",
+          "label": "Military",
+          "count": 19
+        },
+        {
+          "name": "sanction.linked",
+          "label": "Sanction-linked entity",
+          "count": 15
+        },
+        {
+          "name": "corp.public",
+          "label": "Public listed company",
+          "count": 7
+        },
+        {
+          "name": "mare.shadow",
+          "label": "mare.shadow",
+          "count": 7
+        },
+        {
+          "name": "role.diplo",
+          "label": "Diplomat",
+          "count": 7
+        },
+        {
+          "name": "role.judge",
+          "label": "Judge",
+          "count": 5
+        },
+        {
+          "name": "fin.bank",
+          "label": "Bank",
+          "count": 4
+        },
+        {
+          "name": "wanted",
+          "label": "Wanted",
+          "count": 4
+        },
+        {
+          "name": "export.risk",
+          "label": "Trade risk",
+          "count": 3
+        },
+        {
+          "name": "crime",
+          "label": "Crime",
+          "count": 1
+        }
+      ]
+    },
+    "datasets": {
+      "label": "Data sources",
+      "values": [
+        {
+          "name": "ru_acf_bribetakers",
+          "label": "ACF List of War Enablers",
+          "count": 1467
+        },
+        {
+          "name": "wikidata",
+          "label": "Wikidata",
+          "count": 800
+        },
+        {
+          "name": "ua_nsdc_sanctions",
+          "label": "Ukraine NSDC State Register of Sanctions",
+          "count": 749
+        },
+        {
+          "name": "wd_categories",
+          "label": "Wikidata Persons in Relevant Categories",
+          "count": 589
+        },
+        {
+          "name": "eu_fsf",
+          "label": "EU Financial Sanctions Files (FSF)",
+          "count": 569
+        },
+        {
+          "name": "fr_tresor_gels_avoir",
+          "label": "French National Asset Freezing System",
+          "count": 568
+        },
+        {
+          "name": "mc_fund_freezes",
+          "label": "Monaco National Fund Freezing List",
+          "count": 564
+        },
+        {
+          "name": "ch_seco_sanctions",
+          "label": "Swiss SECO Sanctions/Embargoes",
+          "count": 562
+        },
+        {
+          "name": "be_fod_sanctions",
+          "label": "Belgian Financial Sanctions",
+          "count": 544
+        },
+        {
+          "name": "ca_dfatd_sema_sanctions",
+          "label": "Canadian Consolidated Autonomous Sanctions List",
+          "count": 539
+        },
+        {
+          "name": "eu_travel_bans",
+          "label": "EU Consolidated Travel Bans",
+          "count": 530
+        },
+        {
+          "name": "wd_curated",
+          "label": "Wikidata Entities of Interest",
+          "count": 523
+        },
+        {
+          "name": "gb_hmt_sanctions",
+          "label": "UK HMT/OFSI Consolidated List of Targets",
+          "count": 491
+        },
+        {
+          "name": "gb_fcdo_sanctions",
+          "label": "UK FCDO Sanctions List",
+          "count": 490
+        },
+        {
+          "name": "au_dfat_sanctions",
+          "label": "Australian Sanctions Consolidated List",
+          "count": 481
+        },
+        {
+          "name": "us_trade_csl",
+          "label": "US Trade Consolidated Screening List (CSL)",
+          "count": 472
+        },
+        {
+          "name": "us_ofac_sdn",
+          "label": "US OFAC Specially Designated Nationals (SDN) List",
+          "count": 468
+        },
+        {
+          "name": "us_sam_exclusions",
+          "label": "US SAM Procurement Exclusions",
+          "count": 468
+        },
+        {
+          "name": "nz_russia_sanctions",
+          "label": "New Zealand Russia Sanctions",
+          "count": 444
+        },
+        {
+          "name": "gb_coh_disqualified",
+          "label": "UK Companies House Disqualified Directors",
+          "count": 423
+        },
+        {
+          "name": "ann_pep_positions",
+          "label": "PEP position annotations by OpenSanctions",
+          "count": 422
+        },
+        {
+          "name": "wd_peps",
+          "label": "Wikidata Politically Exposed Persons",
+          "count": 422
+        },
+        {
+          "name": "jp_mof_sanctions",
+          "label": "Japan Economic Sanctions and List of Eligible People",
+          "count": 385
+        },
+        {
+          "name": "tw_shtc",
+          "label": "Taiwan Strategic High-Tech Commodities Entity List",
+          "count": 381
+        },
+        {
+          "name": "ext_ru_egrul",
+          "label": "Russian Unified State Register of Legal Entities",
+          "count": 274
+        },
+        {
+          "name": "everypolitician",
+          "label": "Every Politician",
+          "count": 179
+        },
+        {
+          "name": "ua_war_sanctions",
+          "label": "Ukraine War and Sanctions",
+          "count": 123
+        },
+        {
+          "name": "wd_oligarchs",
+          "label": "Russian Oligarch/Billionaires Database",
+          "count": 52
+        },
+        {
+          "name": "ru_dossier_center_poi",
+          "label": "Russian Persons of Interest published by Dossier Center",
+          "count": 34
+        },
+        {
+          "name": "ru_billionaires_2021",
+          "label": "Forbes 2021 List of Russian Billionaires",
+          "count": 32
+        },
+        {
+          "name": "ann_graph_topics",
+          "label": "Graph-based entity tagging",
+          "count": 17
+        },
+        {
+          "name": "lv_fiu_sanctions",
+          "label": "Latvia FIU Sanctions",
+          "count": 17
+        },
+        {
+          "name": "ru_navalny35",
+          "label": "Navalny 35 List of Individuals for Sanctioning",
+          "count": 17
+        },
+        {
+          "name": "eu_journal_sanctions",
+          "label": "EU Council Official Journal Sanctioned Entities",
+          "count": 16
+        },
+        {
+          "name": "permid",
+          "label": "PermID Open Data",
+          "count": 14
+        },
+        {
+          "name": "lt_magnitsky_amendments",
+          "label": "Lithuania Designated Persons Under Magnitsky Amendments",
+          "count": 11
+        },
+        {
+          "name": "ext_gb_coh_psc",
+          "label": "UK Companies House People with Significant Control",
+          "count": 10
+        },
+        {
+          "name": "eu_sanctions_map",
+          "label": "EU Sanctions Map",
+          "count": 9
+        },
+        {
+          "name": "ru_nsd_isin",
+          "label": "Russian National Settlement Depository (NSD, ISIN Assignment)",
+          "count": 8
+        },
+        {
+          "name": "pl_mswia_sanctions",
+          "label": "Polish List of Persons and Entities Subject to Sanctions",
+          "count": 7
+        },
+        {
+          "name": "ext_gleif",
+          "label": "Legal Entity Identifier (LEI) Reference Data",
+          "count": 6
+        },
+        {
+          "name": "ext_icij_offshoreleaks",
+          "label": "ICIJ Offshore Leaks Database",
+          "count": 5
+        },
+        {
+          "name": "gb_hmt_invbans",
+          "label": "UK HMT/OFSI Investment Bans",
+          "count": 5
+        },
+        {
+          "name": "kp_rusi_reports",
+          "label": "DPRK Reports",
+          "count": 5
+        },
+        {
+          "name": "us_cia_world_leaders",
+          "label": "US CIA World Leaders",
+          "count": 5
+        },
+        {
+          "name": "ext_eu_esma_firds",
+          "label": "EU Financial Instruments Reference Data System (FIRDS)",
+          "count": 4
+        },
+        {
+          "name": "gem_energy_ownership",
+          "label": "Global Energy Ownership Tracker",
+          "count": 4
+        },
+        {
+          "name": "iso9362_bic",
+          "label": "Business Identifier Code (BIC) Reference Data",
+          "count": 4
+        },
+        {
+          "name": "us_ofac_cons",
+          "label": "US OFAC Consolidated (non-SDN) List",
+          "count": 4
+        },
+        {
+          "name": "cz_national_sanctions",
+          "label": "Czech Republic National Sanctions",
+          "count": 3
+        },
+        {
+          "name": "ee_international_sanctions",
+          "label": "Estonia International Sanctions Act List",
+          "count": 3
+        },
+        {
+          "name": "eu_esma_saris",
+          "label": "EU ESMA Suspensions and Removals",
+          "count": 3
+        },
+        {
+          "name": "ir_uani_business_registry",
+          "label": "Iran UANI Business Registry",
+          "count": 3
+        },
+        {
+          "name": "jp_meti_ru",
+          "label": "Japan METI Russian List",
+          "count": 3
+        },
+        {
+          "name": "lt_fiu_freezes",
+          "label": "Lithuanian International Sanctions",
+          "count": 3
+        },
+        {
+          "name": "lv_magnitsky_list",
+          "label": "Latvia's Magnitsky Law Sanctions List",
+          "count": 3
+        },
+        {
+          "name": "ru_cbr_banks",
+          "label": "Russia Banking Registry",
+          "count": 3
+        },
+        {
+          "name": "ext_cy_companies",
+          "label": "Cyprus Companies and Corporate Officers",
+          "count": 2
+        },
+        {
+          "name": "ext_lv_business_register",
+          "label": "Register of Enterprises of the Republic of Latvia (Uzņēmumu reģistrs)",
+          "count": 2
+        },
+        {
+          "name": "ext_ua_edr",
+          "label": "Ukraine Consolidated State Registry",
+          "count": 2
+        },
+        {
+          "name": "md_rise_profiles",
+          "label": "RISE Moldova People of interest",
+          "count": 2
+        },
+        {
+          "name": "opencorporates",
+          "label": "OpenCorporates",
+          "count": 2
+        },
+        {
+          "name": "ext_ror",
+          "label": "Research Organizations Registry",
+          "count": 1
+        },
+        {
+          "name": "jp_meti_eul",
+          "label": "Japan METI End User List",
+          "count": 1
+        },
+        {
+          "name": "un_ga_protocol",
+          "label": "UN Heads of State, Heads of Government and Ministers for Foreign Affairs",
+          "count": 1
+        },
+        {
+          "name": "us_bis_denied",
+          "label": "US BIS Denied Persons List",
+          "count": 1
+        },
+        {
+          "name": "us_cia_world_factbook",
+          "label": "US CIA World Factbook Heads of State and Government",
+          "count": 1
+        },
+        {
+          "name": "us_fbi_most_wanted",
+          "label": "US FBI Most Wanted",
+          "count": 1
+        }
+      ]
+    },
+    "countries": {
+      "label": "Countries",
+      "values": [
+        {
+          "name": "ru",
+          "label": "Russia",
+          "count": 922
+        },
+        {
+          "name": "suhh",
+          "label": "Soviet Union",
+          "count": 362
+        },
+        {
+          "name": "ua",
+          "label": "Ukraine",
+          "count": 63
+        },
+        {
+          "name": "by",
+          "label": "Belarus",
+          "count": 12
+        },
+        {
+          "name": "kz",
+          "label": "Kazakhstan",
+          "count": 10
+        },
+        {
+          "name": "uz",
+          "label": "Uzbekistan",
+          "count": 8
+        },
+        {
+          "name": "de",
+          "label": "Germany",
+          "count": 7
+        },
+        {
+          "name": "il",
+          "label": "Israel",
+          "count": 7
+        },
+        {
+          "name": "ch",
+          "label": "Switzerland",
+          "count": 6
+        },
+        {
+          "name": "cy",
+          "label": "Cyprus",
+          "count": 6
+        },
+        {
+          "name": "fr",
+          "label": "France",
+          "count": 6
+        },
+        {
+          "name": "gb",
+          "label": "United Kingdom",
+          "count": 6
+        },
+        {
+          "name": "az",
+          "label": "Azerbaijan",
+          "count": 5
+        },
+        {
+          "name": "fi",
+          "label": "Finland",
+          "count": 5
+        },
+        {
+          "name": "ge",
+          "label": "Georgia",
+          "count": 5
+        },
+        {
+          "name": "cn",
+          "label": "China",
+          "count": 4
+        },
+        {
+          "name": "in",
+          "label": "India",
+          "count": 4
+        },
+        {
+          "name": "kg",
+          "label": "Kyrgyzstan",
+          "count": 4
+        },
+        {
+          "name": "am",
+          "label": "Armenia",
+          "count": 3
+        },
+        {
+          "name": "ky",
+          "label": "Cayman Islands",
+          "count": 3
+        },
+        {
+          "name": "md",
+          "label": "Moldova",
+          "count": 3
+        },
+        {
+          "name": "ua-cri",
+          "label": "Crimea (Occupied Ukraine)",
+          "count": 3
+        },
+        {
+          "name": "ae",
+          "label": "United Arab Emirates",
+          "count": 2
+        },
+        {
+          "name": "mc",
+          "label": "Monaco",
+          "count": 2
+        },
+        {
+          "name": "my",
+          "label": "Malaysia",
+          "count": 2
+        },
+        {
+          "name": "nl",
+          "label": "Netherlands",
+          "count": 2
+        },
+        {
+          "name": "us",
+          "label": "United States of America",
+          "count": 2
+        },
+        {
+          "name": "vg",
+          "label": "British Virgin Islands",
+          "count": 2
+        },
+        {
+          "name": "be",
+          "label": "Belgium",
+          "count": 1
+        },
+        {
+          "name": "dd",
+          "label": "East Germany",
+          "count": 1
+        },
+        {
+          "name": "dm",
+          "label": "Dominica",
+          "count": 1
+        },
+        {
+          "name": "ee",
+          "label": "Estonia",
+          "count": 1
+        },
+        {
+          "name": "hn",
+          "label": "Honduras",
+          "count": 1
+        },
+        {
+          "name": "hr",
+          "label": "Croatia",
+          "count": 1
+        },
+        {
+          "name": "it",
+          "label": "Italy",
+          "count": 1
+        },
+        {
+          "name": "jo",
+          "label": "Jordan",
+          "count": 1
+        },
+        {
+          "name": "lv",
+          "label": "Latvia",
+          "count": 1
+        },
+        {
+          "name": "md-pmr",
+          "label": "Transnistria (PMR)",
+          "count": 1
+        },
+        {
+          "name": "me",
+          "label": "Montenegro",
+          "count": 1
+        },
+        {
+          "name": "mh",
+          "label": "Marshall Islands",
+          "count": 1
+        },
+        {
+          "name": "pt",
+          "label": "Portugal",
+          "count": 1
+        },
+        {
+          "name": "rs",
+          "label": "Serbia",
+          "count": 1
+        },
+        {
+          "name": "sy",
+          "label": "Syria",
+          "count": 1
+        },
+        {
+          "name": "tj",
+          "label": "Tajikistan",
+          "count": 1
+        },
+        {
+          "name": "ua-dpr",
+          "label": "Donetsk (Occupied Ukraine)",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

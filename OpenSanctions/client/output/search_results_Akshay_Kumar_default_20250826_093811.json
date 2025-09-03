@@ -1,0 +1,132 @@
+{
+  "limit": 5,
+  "offset": 0,
+  "total": {
+    "value": 2,
+    "relation": "eq"
+  },
+  "results": [
+    {
+      "id": "Q131763237",
+      "caption": "Akshaykumar Patel",
+      "schema": "Person",
+      "properties": {
+        "topics": [
+          "role.pep"
+        ],
+        "notes": [
+          "Indian politician"
+        ],
+        "gender": [
+          "male"
+        ],
+        "alias": [
+          "Akshay Patel",
+          "Akshay Kumar Iswarbhai Patel"
+        ],
+        "citizenship": [
+          "in"
+        ],
+        "birthDate": [
+          "1969"
+        ],
+        "name": [
+          "Akshaykumar Patel"
+        ],
+        "wikidataId": [
+          "Q131763237"
+        ]
+      },
+      "datasets": [
+        "wd_categories",
+        "wikidata"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2025-01-18T22:12:03",
+      "last_seen": "2025-07-13T03:42:22",
+      "last_change": "2025-04-26T00:47:03"
+    },
+    {
+      "id": "Q91977070",
+      "caption": "Akhay Kumar Das",
+      "schema": "Person",
+      "properties": {
+        "topics": [
+          "role.pep"
+        ],
+        "name": [
+          "অক্ষয় কুমার দাস",
+          "Akhay Kumar Das"
+        ],
+        "country": [
+          "pk",
+          "in"
+        ],
+        "notes": [
+          "Pakistani politician"
+        ],
+        "alias": [
+          "Akshay Kumar Das"
+        ],
+        "wikidataId": [
+          "Q91977070"
+        ],
+        "gender": [
+          "male"
+        ]
+      },
+      "datasets": [
+        "wd_categories",
+        "wikidata"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-09-04T09:26:39",
+      "last_seen": "2025-07-13T03:42:22",
+      "last_change": "2025-05-17T00:47:02"
+    }
+  ],
+  "facets": {
+    "topics": {
+      "label": "Topics",
+      "values": [
+        {
+          "name": "role.pep",
+          "label": "Politician",
+          "count": 2
+        }
+      ]
+    },
+    "datasets": {
+      "label": "Data sources",
+      "values": [
+        {
+          "name": "wd_categories",
+          "label": "Wikidata Persons in Relevant Categories",
+          "count": 2
+        },
+        {
+          "name": "wikidata",
+          "label": "Wikidata",
+          "count": 2
+        }
+      ]
+    },
+    "countries": {
+      "label": "Countries",
+      "values": [
+        {
+          "name": "in",
+          "label": "India",
+          "count": 2
+        },
+        {
+          "name": "pk",
+          "label": "Pakistan",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

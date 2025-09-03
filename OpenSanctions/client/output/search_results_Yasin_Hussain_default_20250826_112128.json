@@ -1,0 +1,188 @@
+{
+  "limit": 5,
+  "offset": 0,
+  "total": {
+    "value": 3,
+    "relation": "eq"
+  },
+  "results": [
+    {
+      "id": "NK-22JRrAHhpxzN8wN5pP6EGo",
+      "caption": "YASIN M HUSSAIN",
+      "schema": "Person",
+      "properties": {
+        "topics": [
+          "debarment"
+        ],
+        "firstName": [
+          "YASIN",
+          "Yasin M."
+        ],
+        "country": [
+          "us"
+        ],
+        "address": [
+          "11646 Sun Circle Way, Columbia MD 21044",
+          "11646 SUN CIRCLE WAY, COLUMBIA, MD 21044"
+        ],
+        "position": [
+          "PHARMACIST (PHARMACY)"
+        ],
+        "middleName": [
+          "M"
+        ],
+        "birthDate": [
+          "1965-01-19"
+        ],
+        "name": [
+          "Yasin M. Hussain",
+          "YASIN M HUSSAIN"
+        ],
+        "lastName": [
+          "Hussain"
+        ],
+        "sector": [
+          "Individual"
+        ]
+      },
+      "datasets": [
+        "us_md_med_exclusions",
+        "us_hhs_exclusions"
+      ],
+      "referents": [
+        "us-medmd-2fef4ada925f5621cc3e168c57638a181a4ea33c",
+        "us-fed-excl-yasin-m-hussain-21044-columbia"
+      ],
+      "target": true,
+      "first_seen": "2024-05-08T21:57:02",
+      "last_seen": "2025-08-25T21:57:02",
+      "last_change": "2024-10-15T07:43:06"
+    },
+    {
+      "id": "us-fed-excl-yasin-m-hussain-20910-silver-spring",
+      "caption": "YASIN M. HUSSAIN",
+      "schema": "Person",
+      "properties": {
+        "lastName": [
+          "HUSSAIN"
+        ],
+        "name": [
+          "YASIN M. HUSSAIN"
+        ],
+        "notes": [
+          "(also MOHAMMED HUSSAIN)"
+        ],
+        "createdAt": [
+          "1997-02-03"
+        ],
+        "country": [
+          "us"
+        ],
+        "topics": [
+          "debarment"
+        ],
+        "address": [
+          "SILVER SPRING, MD 20910, USA"
+        ],
+        "firstName": [
+          "YASIN"
+        ],
+        "middleName": [
+          "M."
+        ]
+      },
+      "datasets": [
+        "us_sam_exclusions"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-05-09T07:55:01",
+      "last_seen": "2025-08-25T08:22:29",
+      "last_change": "2025-07-23T07:56:18"
+    },
+    {
+      "id": "us-fed-excl-mohammed-y-hussain-20910-silver-spring",
+      "caption": "MOHAMMED Y. HUSSAIN",
+      "schema": "Person",
+      "properties": {
+        "middleName": [
+          "Y."
+        ],
+        "country": [
+          "us"
+        ],
+        "lastName": [
+          "HUSSAIN"
+        ],
+        "name": [
+          "MOHAMMED Y. HUSSAIN"
+        ],
+        "notes": [
+          "(also YASIN HUSSAIN)"
+        ],
+        "address": [
+          "SILVER SPRING, MD 20910, USA"
+        ],
+        "firstName": [
+          "MOHAMMED"
+        ],
+        "createdAt": [
+          "1997-02-03"
+        ],
+        "topics": [
+          "debarment"
+        ]
+      },
+      "datasets": [
+        "us_sam_exclusions"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-05-09T07:55:01",
+      "last_seen": "2025-08-25T08:22:29",
+      "last_change": "2025-07-23T07:56:18"
+    }
+  ],
+  "facets": {
+    "topics": {
+      "label": "Topics",
+      "values": [
+        {
+          "name": "debarment",
+          "label": "Debarred entity",
+          "count": 3
+        }
+      ]
+    },
+    "datasets": {
+      "label": "Data sources",
+      "values": [
+        {
+          "name": "us_sam_exclusions",
+          "label": "US SAM Procurement Exclusions",
+          "count": 2
+        },
+        {
+          "name": "us_hhs_exclusions",
+          "label": "US Health and Human Sciences Inspector General Exclusions",
+          "count": 1
+        },
+        {
+          "name": "us_md_med_exclusions",
+          "label": "US Maryland Sanctioned Providers",
+          "count": 1
+        }
+      ]
+    },
+    "countries": {
+      "label": "Countries",
+      "values": [
+        {
+          "name": "us",
+          "label": "United States of America",
+          "count": 3
+        }
+      ]
+    }
+  }
+}

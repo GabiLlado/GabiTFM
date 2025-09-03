@@ -1,0 +1,344 @@
+{
+  "limit": 1,
+  "offset": 0,
+  "total": {
+    "value": 1,
+    "relation": "eq"
+  },
+  "results": [
+    {
+      "id": "Q22283716",
+      "caption": "Roman Starovoit",
+      "schema": "Person",
+      "properties": {
+        "classification": [
+          "National government (current)",
+          "State government (past)"
+        ],
+        "alias": [
+          "Старовойт, Роман Владимирович",
+          "Roman Władimirowicz Starowojt",
+          "Роман Владимирович Старовойт",
+          "Roman Vladimirovich Starovoit",
+          "Roman Vladímirovitx Starovoit",
+          "Roman Vladimirovitch Starovoït",
+          "Roman Starowoit",
+          "Roman Vladimiroviç Starovoyt",
+          "Starovoit Roman Volodymyrovych",
+          "Старовойт Роман Владимирович",
+          "Roman Vladimirovich Starovoyt"
+        ],
+        "notes": [
+          "Member of the State Council of the Russian Federation. Governor of the Kursk Region",
+          "Member of the State Council for the Russian Federation, Governor of Kursk Oblast",
+          "The Director Disqualification Sanction was imposed on 09/04/2025.",
+          "(also ROMAN VLADIMIROVICH STAROVOYT)",
+          "(also ROMAN VLADIMIROVICH STAROVOIT)",
+          "Ex-Minister of Transport of the Russian Federation"
+        ],
+        "nationality": [
+          "ru"
+        ],
+        "topics": [
+          "role.pep",
+          "sanction",
+          "poi"
+        ],
+        "name": [
+          "Roman Vladimirovich Starovoyt",
+          "罗曼·斯塔罗沃伊特",
+          "Roman Wladimirowitsch Starowoit",
+          "Roman Starowojt",
+          "رومن استاروویت",
+          "Роман Старовойт",
+          "Старовойт Роман Володимирович",
+          "Roman Starovojt",
+          "Roman Starovoyt",
+          "Старовойт Роман Владимирович",
+          "Роман Владимирович Старовойт",
+          "ローマン・スタロヴォイト",
+          "Roman Starovoït",
+          "STAROVOIT Roman Vladimirovich",
+          "Starovoit Roman",
+          "Roman Starovoit",
+          "Roman Vladimirovich Starovoit",
+          "رومان ستاروفويت",
+          "Roman Vladimirovič Starovojt",
+          "Ռոման Ստարովոյտ",
+          "STAROVOYT, Roman Vladimirovich"
+        ],
+        "programId": [
+          "NZ-RSA2022",
+          "AU-RUSSIA",
+          "US-RUSHAR",
+          "UA-SA1644",
+          "CA-SEMA",
+          "GB-SAMLA",
+          "GB-RUS"
+        ],
+        "birthDate": [
+          "1972-01-20"
+        ],
+        "createdAt": [
+          "2022-07-26"
+        ],
+        "birthPlace": [
+          "Kursk, Kursk region, Russia",
+          "Kursk",
+          "Kursk, RSFSR, USSR",
+          "Kursk, Kursk Region, Russia"
+        ],
+        "firstName": [
+          "Roman",
+          "Роман",
+          "Roman Vladimirovich"
+        ],
+        "country": [
+          "ru"
+        ],
+        "lastName": [
+          "Starovoyt",
+          "Starovoit",
+          "Старовойт"
+        ],
+        "innCode": [
+          "782613427204"
+        ],
+        "fatherName": [
+          "ВЛАДИМИРОВИЧ",
+          "Vladimirovich"
+        ],
+        "secondName": [
+          "Vladimirovich"
+        ],
+        "position": [
+          "Governor of Kursk Oblast (2019-2024)",
+          "Governor of Kursk Region",
+          "Governor of the Kursk region",
+          "Governor of Kursk Oblast (2018-2019)",
+          "Minister of Transportation",
+          "Member of the State Council of the Russian Federation",
+          "Minister of Transport (2024-2025)"
+        ],
+        "gender": [
+          "male"
+        ],
+        "modifiedAt": [
+          "2023-03-21"
+        ],
+        "middleName": [
+          "Владимирович",
+          "Vladimirovich"
+        ],
+        "address": [
+          "Російська Федерація, м. Курськ",
+          "Kursk",
+          "KURSK, RUS"
+        ],
+        "citizenship": [
+          "ru"
+        ],
+        "sourceUrl": [
+          "https://kursk.bezformata.com/listnews/pod-opeku-detey-sirot/107576254/",
+          "https://news.sky.com/story/russias-former-transport-minister-roman-starovoit-found-dead-with-gunshot-wound-13393651",
+          "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=40247",
+          "https://www.cia.gov/resources/world-leaders/foreign-governments/russia",
+          "https://web.archive.org/web/20220825124754/https://riakursk.ru/kurskiy-gubernator-navestil-106-sirot-iz-dnr/",
+          "https://kursk.er.ru/activity/news/roman-starovojt-posetil-klyukvinskuyu-shkolu-internat-gde-prozhivayut-deti-iz-dnr",
+          "https://www.rusprofile.ru/id/2969140",
+          "https://46tv.ru/novosti/obschestvo/171994-gubernator-roman-starovojt-vstretilsja-s-detmi-iz-pervomajskogo-rajona-dnr.html"
+        ],
+        "taxNumber": [
+          "782613427204"
+        ],
+        "deathDate": [
+          "2025-07-07"
+        ],
+        "addressEntity": [
+          "addr-4b08aa8c25bacfb0b1f3e9625d947e96e40d32f5"
+        ],
+        "uniqueEntityId": [
+          "SQGYDY43W5Z9",
+          "V333UBNSKE26"
+        ],
+        "wikidataId": [
+          "Q22283716"
+        ],
+        "weakAlias": [
+          "罗曼·弗拉基米罗维奇·斯塔罗沃伊特",
+          "罗曼·斯塔罗沃特"
+        ],
+        "education": [
+          "Baltic State Technical University",
+          "Northwestern Institute of Management",
+          "Russian Presidential Academy of National Economy and Public Administration",
+          "Candidate of Sciences in Pedagogy"
+        ]
+      },
+      "datasets": [
+        "wd_peps",
+        "wd_categories",
+        "ua_nsdc_sanctions",
+        "ext_ru_egrul",
+        "ca_dfatd_sema_sanctions",
+        "gb_fcdo_sanctions",
+        "ua_war_sanctions",
+        "wd_curated",
+        "us_cia_world_leaders",
+        "us_sam_exclusions",
+        "wikidata",
+        "us_ofac_sdn",
+        "nz_russia_sanctions",
+        "gb_hmt_sanctions",
+        "us_trade_csl",
+        "au_dfat_sanctions",
+        "ann_pep_positions"
+      ],
+      "referents": [
+        "ca-sema-8fb1e23004516db84d5321ee611a1bb4c79c6bd2",
+        "ru-inn-782613427204",
+        "ua-nsdc-17121-starovojt-roman-volodimirovic",
+        "us-cia-russia-roman-vladimirovich-starovoyt-minister-of-transportation",
+        "nz-ru-ind-1101",
+        "nz-ru-ind-1090-roman-starovoit",
+        "ca-sema-1-904-ru-roman-vladimirovich-starovoit",
+        "acf-af6a2745f3a13886e21940e5eb47bb1e62f20305",
+        "usgsa-s4mrtyg00",
+        "usgsa-s4mrnf94y",
+        "au-dfat-7422-roman-vladimirovich-starovoyt",
+        "acf-374f0c4e287042193039e72f9633275c48152d12",
+        "ofac-40247",
+        "gb-hmt-15448",
+        "ua-ws-c150a4578b33e1d5c09e66cdcb33d84fe1ed0341",
+        "ca-sema-1-part-1-904-ru-roman-vladimirovich-starovoit",
+        "gb-fcdo-rus1510"
+      ],
+      "target": true,
+      "first_seen": "2023-04-20T10:27:20",
+      "last_seen": "2025-08-26T06:53:02",
+      "last_change": "2025-07-30T06:21:35"
+    }
+  ],
+  "facets": {
+    "topics": {
+      "label": "Topics",
+      "values": [
+        {
+          "name": "poi",
+          "label": "Person of interest",
+          "count": 1
+        },
+        {
+          "name": "role.pep",
+          "label": "Politician",
+          "count": 1
+        },
+        {
+          "name": "sanction",
+          "label": "Sanctioned entity",
+          "count": 1
+        }
+      ]
+    },
+    "datasets": {
+      "label": "Data sources",
+      "values": [
+        {
+          "name": "ann_pep_positions",
+          "label": "PEP position annotations by OpenSanctions",
+          "count": 1
+        },
+        {
+          "name": "au_dfat_sanctions",
+          "label": "Australian Sanctions Consolidated List",
+          "count": 1
+        },
+        {
+          "name": "ca_dfatd_sema_sanctions",
+          "label": "Canadian Consolidated Autonomous Sanctions List",
+          "count": 1
+        },
+        {
+          "name": "ext_ru_egrul",
+          "label": "Russian Unified State Register of Legal Entities",
+          "count": 1
+        },
+        {
+          "name": "gb_fcdo_sanctions",
+          "label": "UK FCDO Sanctions List",
+          "count": 1
+        },
+        {
+          "name": "gb_hmt_sanctions",
+          "label": "UK HMT/OFSI Consolidated List of Targets",
+          "count": 1
+        },
+        {
+          "name": "nz_russia_sanctions",
+          "label": "New Zealand Russia Sanctions",
+          "count": 1
+        },
+        {
+          "name": "ua_nsdc_sanctions",
+          "label": "Ukraine NSDC State Register of Sanctions",
+          "count": 1
+        },
+        {
+          "name": "ua_war_sanctions",
+          "label": "Ukraine War and Sanctions",
+          "count": 1
+        },
+        {
+          "name": "us_cia_world_leaders",
+          "label": "US CIA World Leaders",
+          "count": 1
+        },
+        {
+          "name": "us_ofac_sdn",
+          "label": "US OFAC Specially Designated Nationals (SDN) List",
+          "count": 1
+        },
+        {
+          "name": "us_sam_exclusions",
+          "label": "US SAM Procurement Exclusions",
+          "count": 1
+        },
+        {
+          "name": "us_trade_csl",
+          "label": "US Trade Consolidated Screening List (CSL)",
+          "count": 1
+        },
+        {
+          "name": "wd_categories",
+          "label": "Wikidata Persons in Relevant Categories",
+          "count": 1
+        },
+        {
+          "name": "wd_curated",
+          "label": "Wikidata Entities of Interest",
+          "count": 1
+        },
+        {
+          "name": "wd_peps",
+          "label": "Wikidata Politically Exposed Persons",
+          "count": 1
+        },
+        {
+          "name": "wikidata",
+          "label": "Wikidata",
+          "count": 1
+        }
+      ]
+    },
+    "countries": {
+      "label": "Countries",
+      "values": [
+        {
+          "name": "ru",
+          "label": "Russia",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

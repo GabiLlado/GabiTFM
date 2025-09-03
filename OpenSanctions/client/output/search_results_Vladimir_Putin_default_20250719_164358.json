@@ -1,0 +1,1402 @@
+{
+  "limit": 10,
+  "offset": 0,
+  "total": {
+    "value": 1247,
+    "relation": "eq"
+  },
+  "results": [
+    {
+      "id": "Q7747",
+      "caption": "Vladimir Putin",
+      "schema": "Person",
+      "properties": {
+        "birthDate": [
+          "1952-10-07"
+        ],
+        "position": [
+          "President of Russia (2000-2008)",
+          "President",
+          "Director of the Federal Security Service (1998-1999)",
+          "President of Russia (2012-)",
+          "голова of the Security Council of the russian federation",
+          "president for life",
+          "Президент Російської Федерації",
+          "Chairman of the Council of CIS Heads of State (2004-2006)",
+          "Chairman of the Council of CIS Heads of State (2024-2024)",
+          "Prime Minister of Russia (2008-2012)",
+          "président de la Fédération de Russie",
+          "chairman of the military-industrial commission",
+          "chairperson (2012-)",
+          "Chairman of the Council of CIS Heads of State (2017-2017)",
+          "Secretary of the Security Council of Russia (1999-1999)",
+          "Supreme Commander-in-Chief of the Armed Forces of the Russian Federation (1999-2008)",
+          "voorzitter van de Veiligheidsraad van de Russische Federatie",
+          "party leader",
+          "permanent lid van de Veiligheidsraad van de Russische Federatie",
+          "Deputy Chairman of the Government of the Russian Federation (1999-1999)",
+          "ロシア連邦大統領",
+          "chairperson",
+          "Chairman of the Council of CIS Heads of State (2000-2003)",
+          "President of the Russian Federation",
+          "Prime Minister of Russia (1999-2000)",
+          "Supreme Commander-in-Chief of the Armed Forces of the Russian Federation (2012-)",
+          "party leader (1995-1997)",
+          "recruiter",
+          "Acting President of Russia (1999-2000)"
+        ],
+        "name": [
+          "Vladimir Poutine",
+          "Путін Володимир Володимирович",
+          "Vladimir Vladimiroviç Putin",
+          "Vladímír Pútín",
+          "Уладзімір Уладзіміравіч Пуцін",
+          "Vladimir Vladimirovich POUTINE",
+          "ولادیمیر پوٹن",
+          "Путин Владимир Владимирович",
+          "Wladimir Poetin",
+          "Vladimir Putin",
+          "Vladimiras Putinas",
+          "Vlagyimir Vlagyimirovics Putyin",
+          "弗拉基米尔·普京",
+          "Wladimir Putin",
+          "ולדימיר פוטין",
+          "Владимир Владимирович Путин",
+          "Владимир Путин",
+          "Влади́мир Влади́мирович ПУ́ТИН",
+          "Vladimir Vladimirovich Putin",
+          "ဗလာဒီမီယာ ပူတင်",
+          "ভ্লাদিমির পুতিন",
+          "PUTIN, Vladimir Vladimirovich",
+          "Βλαντίμιρ Πούτιν",
+          "فلاديمير بوتين",
+          "Vladimir V. Putin",
+          "भ्लादिमिर पुटिन",
+          "ვლადიმერ პუტინი",
+          "Władimir Putin",
+          "Վլադիմիր Պուտին",
+          "Wladimir Wladimirowitsch Putin",
+          "ウラジーミル・プーチン",
+          "Putin Vladimir Vladimirovich",
+          "វ៉្លាឌីមៀរ ពូទីន",
+          "Vladimir Poetin",
+          "Vladimir Vladimirovič Putin",
+          "ವ್ಲಾದಿಮಿರ್ ಪುತಿನ್",
+          "Vladimirs Putins",
+          "블라디미르 푸틴",
+          "ولادیمیر پوتین",
+          "व्लादिमीर पुतिन",
+          "Vladímir Putin",
+          "Vladimir Vladimirovitj PUTIN"
+        ],
+        "title": [
+          "His Excellency"
+        ],
+        "alias": [
+          "Путин В. В.",
+          "Vladimir Vladimirovici Putin",
+          "فلادمير بوتين",
+          "Președintele Putin",
+          "블라디미르 블라디미로비치 푸틴",
+          "Путин, Владимир Владимирович,",
+          "Путин, Владимир Владимирович",
+          "Vladimir Vladimirovitj Putin",
+          "Путин Владимир Владимирович",
+          "Presiden Putin",
+          "Vladimir Putin",
+          "Путин, Владимир",
+          "Владимир Владимирович Путин",
+          "Владимир Путин",
+          "Vlagyimir Putyin",
+          "Vladimir Vladimirovich Putin",
+          "Βλαντίμιρ Βλαντίμιροβιτς Πούτιν",
+          "В. В. Путин",
+          "Vladimir Vladimirovitch Poutine",
+          "Vladimír Putin",
+          "Predsjednik Putin",
+          "Wladimir Wladimirowitsj Poetin",
+          "فلاديمير فلاديميروفيتش بوتين",
+          "Vladímir Vladímirovitx Putin",
+          "Präsident Putin",
+          "Vladimir Vladimirovitsj Putin",
+          "Vladimír Vladimirovič Putin",
+          "Президент Путин",
+          "Putyin elnök",
+          "فلاديمير بوتن",
+          "فلادمير بوتن",
+          "Putin Volodymyr Volodymyrovych",
+          "Vladímir Vladímirovich Putin",
+          "President Putin",
+          "Путин Владимир",
+          "Władimir Władimirowicz Putin",
+          "ПУ́ТИН Влади́мир Влади́мирович",
+          "Уладзімір Пуцін"
+        ],
+        "lastName": [
+          "ПУ́ТИН",
+          "POUTINE",
+          "Putin",
+          "Путин"
+        ],
+        "birthPlace": [
+          "Léningrad, aujourd'hui Saint-Pétersbourg : RUSSIE",
+          "м. Санкт-Петербург, Російська Федерація",
+          "St Petersburg (then Leningrad)",
+          "Saint-Petersburg, Russian Federation",
+          "Saint Petersburg, Russia",
+          "Leningrad, Russia",
+          "Leningrad",
+          "Leningrad (now Saint-Petersburg), RUSSIAN FEDERATION",
+          "レニングラード（現サンクトペテルブルク）（ロシア）",
+          "Saint Petersburg",
+          "St Petersburg (then Leningrad)\nRussia",
+          "V.F. Snegiryov Maternity Hospital No.6",
+          "Léningrad, aujourd'hui Saint-Pétersbourg"
+        ],
+        "notes": [
+          "President of Russia (1999–2008, 2012–present)",
+          "Vladimir Putin is the President of the Russian Federation. On 22 Feb 2022, he signed a decree recognising the \"independence and sovereignty\" of the non-government-controlled areas of the Donetsk and Luhansk oblasts of Ukraine, and ordered the Russian armed forces into those areas. On 24 Feb 2022, he ordered a military operation in Ukraine and Russian armed forces began an attack on Ukraine. That attack is a blatant violation of the territorial integrity, sovereignty and independence of Ukraine. Vladimir Putin is responsible for and actively supporting actions undermining the territorial integrity, sovereignty and independence of Ukraine, as well as stability and security in Ukraine.",
+          "Disqualified",
+          "President of the Russian Federation. Corruption.",
+          "Vladimir Poutine est le président de la Fédération de Russie. Le 22 février 2022, il a signé un décret reconnaissant l'\"indépendance et la souveraineté\" des zones des oblasts ukrainiens de Donetsk et de Louhansk non contrôlées par le gouvernement, et a ordonné le déploiement des forces armées russes dans ces zones. Le 24 février 2022, il a ordonné le lancement d'une opération militaire en Ukraine et les forces armées russes ont commencé à attaquer l'Ukraine. Cette attaque est une violation flagrante de l'intégrité territoriale, de la souveraineté et de l'indépendance de l'Ukraine. Vladimir Poutine est responsable d'actions compromettant l'intégrité territoriale, la souveraineté et l'indépendance de l'Ukraine, ou la stabilité ou la sécurité en Ukraine, et soutient activement ces actions.",
+          "Function: President of the Russian Federation",
+          "As the President of Russia, he shapes the policy of the Russian government, which threatens the territorial integrity, sovereignty and independence of Ukraine.",
+          "NOT SUBJECT TO TRAVEL RESTRICTIONS ACCORDING TO ARTICLE 29(1)",
+          "The Director Disqualification Sanction was imposed on 09/04/2025.",
+          "President of the Russian Federation"
+        ],
+        "description": [
+          "Prseident of the Russian Federation, who gifted weapons to Kim Jong Un during his visit to Russia in September 2023."
+        ],
+        "weakAlias": [
+          "ヴラジーミル・プーチン",
+          "Платов",
+          "ߔߑߟߊߕߐߝ߭",
+          "بوتين",
+          "פוטין",
+          "পুতিন",
+          "В.Путин",
+          "普丁",
+          "ヴラジーミル・ヴラジーミロヴィッチ・プーチン",
+          "ウラジーミル・ウラジーミロヴィチ・プーチン",
+          "ヴラジーミル・ヴラジーミロヴィチ・プーチン",
+          "Platov",
+          "뿌찐",
+          "Путин",
+          "プーチン",
+          "普京",
+          "弗拉基米尔·弗拉基米罗维奇·普京",
+          "بوتن",
+          "푸틴",
+          "ပူတင်"
+        ],
+        "gender": [
+          "male"
+        ],
+        "addressEntity": [
+          "NK-3Kw6ZCXo8SddN8PJ58uuvE",
+          "addr-85eeb35a893ae22eccdaff16861604dabb96799a",
+          "addr-b174bd55f84b89b8c05b4b3608f6b26abc33fadd",
+          "addr-820cb51be8255aad02f73c7cf89fca7cddac2d6b",
+          "addr-4bb39590cb2365a1d3ba04821f515b1db4f171fd"
+        ],
+        "topics": [
+          "poi",
+          "role.pep",
+          "wanted",
+          "sanction",
+          "corp.disqual"
+        ],
+        "country": [
+          "ru"
+        ],
+        "firstName": [
+          "Владимир",
+          "Vladimir Vladimirovich",
+          "Влади́мир",
+          "Vladimir"
+        ],
+        "address": [
+          "Novo-Ogaryevo, Moscow Region",
+          "Moscow, Russia",
+          "Valdai, Novgorod Region",
+          "Bocharov Ruchey, Sochi",
+          "MOSCOW, RUS",
+          "Moscow",
+          "Kremlin, Moscow"
+        ],
+        "education": [
+          "Candidate of Economic Sciences (1997)",
+          "School 281 (1968-1970)",
+          "Academy of the Federal Security Service of the Russian Federation",
+          "Saint Petersburg Mining University (-1997)",
+          "Saint Petersburg State University",
+          "Faculty of Law, Saint Petersburg State University (1970-1975)",
+          "School 193 (1960-1968)",
+          "St. Petersburg Institute of the FSB of Russia",
+          "Academy of Foreign Intelligence"
+        ],
+        "classification": [
+          "National government (current)"
+        ],
+        "middleName": [
+          "Владимирович",
+          "Vladimirovich"
+        ],
+        "createdAt": [
+          "2022-02-25"
+        ],
+        "programId": [
+          "US-RUSHAR",
+          "GB-SAMLA",
+          "NZ-RSA2022",
+          "CA-SEMA",
+          "EU-UKR",
+          "UK-RUS",
+          "AU-RUSSIA",
+          "UA-SA1644",
+          "SECO-UKRAINE"
+        ],
+        "nationality": [
+          "ru"
+        ],
+        "sourceUrl": [
+          "https://wikispooks.com/wiki/Vladimir_Putin",
+          "https://find-and-update.company-information.service.gov.uk/disqualified-officers/natural/CoTYy6JdAkw2xBkbaHhn_4ZOVFs",
+          "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=35096",
+          "https://www.cia.gov/resources/world-leaders/foreign-governments/russia",
+          "https://www.cia.gov/the-world-factbook/countries/russia",
+          "https://gels-avoirs.dgtresor.gouv.fr/Gels/RegistreDetail?idRegistre=4271"
+        ],
+        "secondName": [
+          "Vladimirovich"
+        ],
+        "citizenship": [
+          "suhh",
+          "ru"
+        ],
+        "religion": [
+          "Eastern Orthodoxy"
+        ],
+        "fatherName": [
+          "Влади́мирович",
+          "Vladimirovich"
+        ],
+        "birthCountry": [
+          "ru"
+        ],
+        "ethnicity": [
+          "Russians"
+        ],
+        "modifiedAt": [
+          "2023-03-21"
+        ],
+        "taxNumber": [
+          "711813038431"
+        ],
+        "wikidataId": [
+          "Q7747"
+        ],
+        "website": [
+          "http://putin.kremlin.ru/"
+        ],
+        "uniqueEntityId": [
+          "NYRVMEKYU3U9"
+        ]
+      },
+      "datasets": [
+        "wikidata",
+        "us_ofac_sdn",
+        "kp_rusi_reports",
+        "jp_mof_sanctions",
+        "wd_categories",
+        "fr_tresor_gels_avoir",
+        "eu_fsf",
+        "gb_coh_disqualified",
+        "ca_dfatd_sema_sanctions",
+        "be_fod_sanctions",
+        "ua_war_sanctions",
+        "gb_hmt_sanctions",
+        "us_cia_world_factbook",
+        "ann_pep_positions",
+        "us_sam_exclusions",
+        "au_dfat_sanctions",
+        "un_ga_protocol",
+        "ru_acf_bribetakers",
+        "gb_fcdo_sanctions",
+        "mc_fund_freezes",
+        "ua_nsdc_sanctions",
+        "ch_seco_sanctions",
+        "wd_curated",
+        "us_cia_world_leaders",
+        "wd_peps",
+        "nz_russia_sanctions",
+        "us_trade_csl"
+      ],
+      "referents": [
+        "acf-d027c6bb07387ac41f485a471ba90ba2cee703e7",
+        "fr-ga-4271",
+        "unprot-32bf82971599eb954c89ea33a205527cd2038596",
+        "nz-ru-ind-1-vladimir-putin",
+        "eu-oj-9a62aa18cb2095c79d8c9ea8ffff64331eebb25a",
+        "eu-oj-d553f0906b94dc6c8078fcd697ef4b1aa432bf2f",
+        "us-cia-russia-vladimir-vladimirovich-putin-pres",
+        "ca-sema-1-503-ru-vladimir-vladimirovich-putin",
+        "ua-nsdc-16102-putin-volodimir-volodimirovic",
+        "nz-ru-named-vladimir-putin",
+        "ch-seco-49812",
+        "acf-bc8959bdee968cc4047e0c19c7d7ada16f9aa9fd",
+        "ua-ws-856ff7ef3fefa0ff88edc5754e35d1afe6551049",
+        "eu-fsf-eu-7510-16",
+        "eu-oj-4a63e6c4cd8a1e0a2fd11e9c7e69fb810b5fe2a6",
+        "eu-oj-2d59d23df97085872154a4440eebdacfe670ef71",
+        "ca-sema-60e89a4901773522fb01725b0d3302f2e6dba62c",
+        "ltfiu-sanctioned-vladimir-vladimirovich-putin",
+        "ofac-35096",
+        "gb-hmt-14196",
+        "eu-oj-d65e31ca4e1b1990211a63108c507e51633ad0df",
+        "NK-A2ng9aNQPTjrkkd84Ew9Ww",
+        "gb-fcdo-rus0251",
+        "NK-3qcMM2om7TRRuVgUBk3A8x",
+        "mc-freezes-e70429b07b7edc46d5667118dc5a59c4dd84ac1c",
+        "eu-tb-logical-135909",
+        "ja-mof-1e45d73d4aefd473f51cc8bb96061a16984b96c0",
+        "eu-oj-c27242066b0bbeab18401f02eb488edda6127cca",
+        "ca-sema-1-part-1-503-ru-vladimir-vladimirovich-putin",
+        "gb-coh-cotyy6jdakw2xbkbahhn-4zovfs",
+        "acf-8b7db72123cf44666dfd42cf1a94dced7aeb3912",
+        "eu-oj-94f7f023518e3b672345c573d802c3e4084f4c79",
+        "unprot-8b1ac4ae93075a7bfb6745d9c5e3e8fa852fcdc0",
+        "ca-sema-russia-1-503",
+        "kprusi-3779d003ab6de980dee5c5d1980bdb033345e57e",
+        "NK-b32TGfwW8Yk82mdxvaXt3C",
+        "usgsa-s4mrky6qp",
+        "au-dfat-6678-vladimir-vladimirovich-putin",
+        "acf-39b7a17a53441b22846dfafcef974c7a28204672",
+        "eu-oj-d21a782e21e93749304ec66eb20617dfd0ba152d",
+        "us-cia-russia-vladimir-vladimirovich-putin-president",
+        "nz-ru-ind-1",
+        "usgsa-s4mrtyd57",
+        "NK-jbNgZCTtWNJE8PUnLBE23o",
+        "eu-oj-f071c9fb8704d7dc4976aba8f242f8317eb93166"
+      ],
+      "target": true,
+      "first_seen": "2023-04-20T10:12:18",
+      "last_seen": "2025-07-14T06:53:02",
+      "last_change": "2025-07-01T14:03:28"
+    },
+    {
+      "id": "Q130234762",
+      "caption": "Vladimir Putin Jr.",
+      "schema": "Person",
+      "properties": {
+        "topics": [
+          "sanction.linked",
+          "role.rca"
+        ],
+        "weakAlias": [
+          "Путин-младший"
+        ],
+        "name": [
+          "فلاديمير بوتين الابن",
+          "Vladimir Putin Jr.",
+          "Владимир Путин"
+        ],
+        "alias": [
+          "فلاديمير بوتين",
+          "Vladimir Putin",
+          "Путин, Владимир Владимирович"
+        ],
+        "citizenship": [
+          "ru"
+        ],
+        "lastName": [
+          "Putin"
+        ],
+        "gender": [
+          "male"
+        ],
+        "notes": [
+          "alleged son of Vladimir Putin"
+        ],
+        "sourceUrl": [
+          "https://dossier.center/succession/"
+        ],
+        "firstName": [
+          "Vladimir"
+        ],
+        "birthPlace": [
+          "Moscow"
+        ],
+        "birthDate": [
+          "2019"
+        ],
+        "wikidataId": [
+          "Q130234762"
+        ]
+      },
+      "datasets": [
+        "wikidata",
+        "ann_graph_topics"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-09-09T00:47:02",
+      "last_seen": "2025-07-14T01:28:46",
+      "last_change": "2025-01-25T00:47:49"
+    },
+    {
+      "id": "ua-ws-aaa2d6d646b9bd03bcc3bdde82a0d5b29f5fbb30",
+      "caption": "ANO APE \"RUS NAMED AFTER V.V. PUTIN\"",
+      "schema": "LegalEntity",
+      "properties": {
+        "ogrnCode": [
+          "1152036000478"
+        ],
+        "sourceUrl": [
+          "https://companium.ru/id/1152036000478",
+          "https://vk.com/russian_university_of_spetsnaz?ysclid=lx6tuh0byz122567828",
+          "https://t.me/russia24h/62023",
+          "https://dzen.ru/a/Y3ULwcYT93qWS_gi",
+          "https://ru.wikipedia.org/wiki/Российский_университет_спецназа_имени_В._В._Путина"
+        ],
+        "topics": [
+          "poi"
+        ],
+        "name": [
+          "ANO APE \"RUS NAMED AFTER V.V. PUTIN\"",
+          "AUTONOMOUS NON-PROFIT ORGANIZATION OF ADDITIONAL PROFESSIONAL EDUCATION \"RUSSIAN UNIVERSITY OF SPECIAL FORCES NAMED AFTER THE SUPREME COMMANDER-IN-CHIEF, PRESIDENT OF RUSSIA VLADIMIR VLADIMIROVICH PUTIN\""
+        ],
+        "country": [
+          "ru"
+        ],
+        "address": [
+          "366202, russian federation, Chechen Republic, m. district Gudermes, Gudermes settlement, Gudermes, Rostovskaya str. 2/2A, office 2"
+        ],
+        "innCode": [
+          "2014010122"
+        ]
+      },
+      "datasets": [
+        "ua_war_sanctions"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-11-28T09:05:59",
+      "last_seen": "2025-07-13T05:41:02",
+      "last_change": "2024-12-25T05:41:02"
+    },
+    {
+      "id": "Q124822037",
+      "caption": "Evgeny Putin",
+      "schema": "Person",
+      "properties": {
+        "alias": [
+          "Yevgeni Mihailoviç Putin",
+          "Evgeny Mikhailovich Putin",
+          "Евгений Путин"
+        ],
+        "notes": [
+          "Russian urologist, first cousin of Vladimir Putin"
+        ],
+        "citizenship": [
+          "suhh",
+          "ru"
+        ],
+        "birthDate": [
+          "1933-02-25"
+        ],
+        "topics": [
+          "sanction.linked",
+          "role.rca"
+        ],
+        "wikidataId": [
+          "Q124822037"
+        ],
+        "name": [
+          "Evgeny Putin",
+          "Евгений Михайлович Путин",
+          "Yevgeni Putin"
+        ],
+        "deathDate": [
+          "2024-03"
+        ],
+        "gender": [
+          "male"
+        ]
+      },
+      "datasets": [
+        "wikidata",
+        "ann_graph_topics"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2024-03-17T00:48:26",
+      "last_seen": "2025-07-14T01:28:46",
+      "last_change": "2025-01-25T00:47:49"
+    },
+    {
+      "id": "Q27303716",
+      "caption": "Alexander Spiridonovich Putin",
+      "schema": "Person",
+      "properties": {
+        "lastName": [
+          "Putin"
+        ],
+        "name": [
+          "Александр Спиридонович Путин",
+          "Aleksandr Putin",
+          "Alexander Putin",
+          "Alexander Spiridonovich Putin",
+          "アレクサンドル・スピリドノヴィッチ・プーチン"
+        ],
+        "notes": [
+          "paternal uncle of Vladimir Putin"
+        ],
+        "gender": [
+          "male"
+        ],
+        "firstName": [
+          "Aleksandr"
+        ],
+        "alias": [
+          "Александр Путин",
+          "Путин, Александр Спиридонович",
+          "Aleksandr Spiridonoviç Putin"
+        ],
+        "topics": [
+          "sanction.linked",
+          "role.rca"
+        ],
+        "citizenship": [
+          "suhh"
+        ],
+        "birthDate": [
+          "1920-03"
+        ],
+        "wikidataId": [
+          "Q27303716"
+        ],
+        "weakAlias": [
+          "アレクサンドル・スピリドノヴィチ・プーチン"
+        ]
+      },
+      "datasets": [
+        "wikidata",
+        "ann_graph_topics"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2023-07-18T22:03:41",
+      "last_seen": "2025-07-14T01:28:46",
+      "last_change": "2025-04-03T00:47:03"
+    },
+    {
+      "id": "acf-54d8281b3762544f97b7ae408770053e542e0e9c",
+      "caption": "Derzhak Vladimir Vladimirovich",
+      "schema": "Person",
+      "properties": {
+        "birthDate": [
+          "1969-01-01"
+        ],
+        "name": [
+          "Derzhak Vladimir Vladimirovich"
+        ],
+        "gender": [
+          "male"
+        ],
+        "alias": [
+          "Держак Владимир Владимирович"
+        ],
+        "topics": [
+          "poi"
+        ],
+        "position": [
+          "Presidential proxies in elections",
+          "Доверенные лица президента на выборах"
+        ],
+        "notes": [
+          "Trusted representative of presidential candidate Vladimir Putin. Trusted representatives ensured the re-election of Vladimir Putin, who has pursued an aggressive policy against Ukraine since 2014, in the non-competitive presidential election on March 18, 2018."
+        ],
+        "createdAt": [
+          "2022-10-13"
+        ]
+      },
+      "datasets": [
+        "ru_acf_bribetakers"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2023-02-15T12:13:21",
+      "last_seen": "2025-07-13T17:53:03",
+      "last_change": "2024-02-27T17:53:01"
+    },
+    {
+      "id": "acf-804582d585709be45b5b4a28a65a545ab2e2f8a0",
+      "caption": "Podobed Vladimir Nikolaevich",
+      "schema": "Person",
+      "properties": {
+        "topics": [
+          "poi"
+        ],
+        "createdAt": [
+          "2022-10-13"
+        ],
+        "birthDate": [
+          "1955-09-27"
+        ],
+        "notes": [
+          "Trusted representative of presidential candidate Vladimir Putin. Trusted representatives ensured the re-election of Vladimir Putin, who has pursued an aggressive policy against Ukraine since 2014, in the non-competitive presidential election on March 18, 2018."
+        ],
+        "gender": [
+          "male"
+        ],
+        "alias": [
+          "Подобед Владимир Николаевич"
+        ],
+        "position": [
+          "Presidential proxies in elections",
+          "Доверенные лица президента на выборах"
+        ],
+        "name": [
+          "Podobed Vladimir Nikolaevich"
+        ]
+      },
+      "datasets": [
+        "ru_acf_bribetakers"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2023-02-15T12:13:21",
+      "last_seen": "2025-07-13T17:53:03",
+      "last_change": "2024-02-27T17:53:01"
+    },
+    {
+      "id": "acf-80b526bc8d4224ce4e09c75994b659e29f2af30b",
+      "caption": "Romanov Vladimir Viktorovich",
+      "schema": "Person",
+      "properties": {
+        "alias": [
+          "Романов Владимир Викторович"
+        ],
+        "topics": [
+          "poi"
+        ],
+        "name": [
+          "Romanov Vladimir Viktorovich"
+        ],
+        "position": [
+          "Presidential proxies in elections",
+          "Доверенные лица президента на выборах"
+        ],
+        "birthDate": [
+          "1960-09-14"
+        ],
+        "gender": [
+          "male"
+        ],
+        "createdAt": [
+          "2022-10-13"
+        ],
+        "notes": [
+          "Trusted representative of presidential candidate Vladimir Putin. Trusted representatives ensured the re-election of Vladimir Putin, who has pursued an aggressive policy against Ukraine since 2014, in the non-competitive presidential election on March 18, 2018."
+        ]
+      },
+      "datasets": [
+        "ru_acf_bribetakers"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2023-02-15T12:13:21",
+      "last_seen": "2025-07-13T17:53:03",
+      "last_change": "2024-02-27T17:53:01"
+    },
+    {
+      "id": "acf-857dd4c740d2622a1494da7055ced751762029f6",
+      "caption": "Penkov Vladimir Fyodorovich",
+      "schema": "Person",
+      "properties": {
+        "notes": [
+          "Trusted representative of presidential candidate Vladimir Putin. Trusted representatives ensured the re-election of Vladimir Putin, who has pursued an aggressive policy against Ukraine since 2014, in the non-competitive presidential election on March 18, 2018."
+        ],
+        "position": [
+          "Presidential proxies in elections",
+          "Доверенные лица президента на выборах"
+        ],
+        "alias": [
+          "Пеньков Владимир Федорович"
+        ],
+        "name": [
+          "Penkov Vladimir Fyodorovich"
+        ],
+        "createdAt": [
+          "2022-10-13"
+        ],
+        "gender": [
+          "male"
+        ],
+        "topics": [
+          "poi"
+        ],
+        "birthDate": [
+          "1952-06-03"
+        ]
+      },
+      "datasets": [
+        "ru_acf_bribetakers"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2023-02-15T12:13:21",
+      "last_seen": "2025-07-13T17:53:03",
+      "last_change": "2024-02-27T17:53:01"
+    },
+    {
+      "id": "acf-87db04f175978b77cbda17bb651755fafb464fc5",
+      "caption": "Klimov Vladimir Ivanovich",
+      "schema": "Person",
+      "properties": {
+        "name": [
+          "Klimov Vladimir Ivanovich"
+        ],
+        "position": [
+          "Presidential proxies in elections",
+          "Доверенные лица президента на выборах"
+        ],
+        "alias": [
+          "Климов Владимир Иванович"
+        ],
+        "notes": [
+          "Trusted representative of presidential candidate Vladimir Putin. Trusted representatives ensured the re-election of Vladimir Putin, who has pursued an aggressive policy against Ukraine since 2014, in the non-competitive presidential election on March 18, 2018."
+        ],
+        "topics": [
+          "poi"
+        ],
+        "gender": [
+          "male"
+        ],
+        "birthDate": [
+          "1948-06-29"
+        ],
+        "createdAt": [
+          "2022-10-13"
+        ]
+      },
+      "datasets": [
+        "ru_acf_bribetakers"
+      ],
+      "referents": [],
+      "target": true,
+      "first_seen": "2023-02-15T12:13:21",
+      "last_seen": "2025-07-13T17:53:03",
+      "last_change": "2024-02-27T17:53:01"
+    }
+  ],
+  "facets": {
+    "topics": {
+      "label": "Topics",
+      "values": [
+        {
+          "name": "poi",
+          "label": "Person of interest",
+          "count": 1197
+        },
+        {
+          "name": "sanction",
+          "label": "Sanctioned entity",
+          "count": 469
+        },
+        {
+          "name": "role.pep",
+          "label": "Politician",
+          "count": 342
+        },
+        {
+          "name": "corp.disqual",
+          "label": "Disqualified",
+          "count": 180
+        },
+        {
+          "name": "role.rca",
+          "label": "Close Associate",
+          "count": 71
+        },
+        {
+          "name": "role.oligarch",
+          "label": "Oligarch",
+          "count": 35
+        },
+        {
+          "name": "mil",
+          "label": "Military",
+          "count": 16
+        },
+        {
+          "name": "sanction.linked",
+          "label": "Sanction-linked entity",
+          "count": 11
+        },
+        {
+          "name": "corp.public",
+          "label": "Public listed company",
+          "count": 6
+        },
+        {
+          "name": "export.risk",
+          "label": "Trade risk",
+          "count": 5
+        },
+        {
+          "name": "role.diplo",
+          "label": "Diplomat",
+          "count": 5
+        },
+        {
+          "name": "role.judge",
+          "label": "Judge",
+          "count": 5
+        },
+        {
+          "name": "export.control",
+          "label": "Export controlled",
+          "count": 4
+        },
+        {
+          "name": "fin.bank",
+          "label": "Bank",
+          "count": 3
+        },
+        {
+          "name": "wanted",
+          "label": "Wanted",
+          "count": 3
+        },
+        {
+          "name": "crime",
+          "label": "Crime",
+          "count": 1
+        }
+      ]
+    },
+    "datasets": {
+      "label": "Data sources",
+      "values": [
+        {
+          "name": "ru_acf_bribetakers",
+          "label": "ACF List of War Enablers",
+          "count": 1185
+        },
+        {
+          "name": "wikidata",
+          "label": "Wikidata",
+          "count": 514
+        },
+        {
+          "name": "ua_nsdc_sanctions",
+          "label": "Ukraine NSDC State Register of Sanctions",
+          "count": 441
+        },
+        {
+          "name": "wd_categories",
+          "label": "Wikidata Persons in Relevant Categories",
+          "count": 320
+        },
+        {
+          "name": "eu_fsf",
+          "label": "EU Financial Sanctions Files (FSF)",
+          "count": 287
+        },
+        {
+          "name": "fr_tresor_gels_avoir",
+          "label": "French National Asset Freezing System",
+          "count": 287
+        },
+        {
+          "name": "mc_fund_freezes",
+          "label": "Monaco National Fund Freezing List",
+          "count": 286
+        },
+        {
+          "name": "ch_seco_sanctions",
+          "label": "Swiss SECO Sanctions/Embargoes",
+          "count": 281
+        },
+        {
+          "name": "be_fod_sanctions",
+          "label": "Belgian Financial Sanctions",
+          "count": 269
+        },
+        {
+          "name": "ca_dfatd_sema_sanctions",
+          "label": "Canadian Consolidated Autonomous Sanctions List",
+          "count": 268
+        },
+        {
+          "name": "eu_travel_bans",
+          "label": "EU Consolidated Travel Bans",
+          "count": 256
+        },
+        {
+          "name": "wd_curated",
+          "label": "Wikidata Entities of Interest",
+          "count": 253
+        },
+        {
+          "name": "gb_hmt_sanctions",
+          "label": "UK HMT/OFSI Consolidated List of Targets",
+          "count": 220
+        },
+        {
+          "name": "gb_fcdo_sanctions",
+          "label": "UK FCDO Sanctions List",
+          "count": 219
+        },
+        {
+          "name": "au_dfat_sanctions",
+          "label": "Australian Sanctions Consolidated List",
+          "count": 214
+        },
+        {
+          "name": "ext_ru_egrul",
+          "label": "Russian Unified State Register of Legal Entities",
+          "count": 214
+        },
+        {
+          "name": "us_trade_csl",
+          "label": "US Trade Consolidated Screening List (CSL)",
+          "count": 203
+        },
+        {
+          "name": "us_sam_exclusions",
+          "label": "US SAM Procurement Exclusions",
+          "count": 200
+        },
+        {
+          "name": "us_ofac_sdn",
+          "label": "US OFAC Specially Designated Nationals (SDN) List",
+          "count": 199
+        },
+        {
+          "name": "nz_russia_sanctions",
+          "label": "New Zealand Russia Sanctions",
+          "count": 185
+        },
+        {
+          "name": "gb_coh_disqualified",
+          "label": "UK Companies House Disqualified Directors",
+          "count": 180
+        },
+        {
+          "name": "ann_pep_positions",
+          "label": "PEP position annotations by OpenSanctions",
+          "count": 159
+        },
+        {
+          "name": "wd_peps",
+          "label": "Wikidata Politically Exposed Persons",
+          "count": 159
+        },
+        {
+          "name": "jp_mof_sanctions",
+          "label": "Japan Economic Sanctions and List of Eligible People",
+          "count": 137
+        },
+        {
+          "name": "ua_war_sanctions",
+          "label": "Ukraine War and Sanctions",
+          "count": 101
+        },
+        {
+          "name": "wd_oligarchs",
+          "label": "Russian Oligarch/Billionaires Database",
+          "count": 47
+        },
+        {
+          "name": "everypolitician",
+          "label": "Every Politician",
+          "count": 45
+        },
+        {
+          "name": "ru_billionaires_2021",
+          "label": "Forbes 2021 List of Russian Billionaires",
+          "count": 29
+        },
+        {
+          "name": "ru_dossier_center_poi",
+          "label": "Russian Persons of Interest published by Dossier Center",
+          "count": 28
+        },
+        {
+          "name": "ru_navalny35",
+          "label": "Navalny 35 List of Individuals for Sanctioning",
+          "count": 15
+        },
+        {
+          "name": "eu_journal_sanctions",
+          "label": "EU Council Official Journal Sanctioned Entities",
+          "count": 13
+        },
+        {
+          "name": "ann_graph_topics",
+          "label": "Graph-based entity tagging",
+          "count": 12
+        },
+        {
+          "name": "permid",
+          "label": "PermID Open Data",
+          "count": 12
+        },
+        {
+          "name": "lt_magnitsky_amendments",
+          "label": "Lithuania Designated Persons Under Magnitsky Amendments",
+          "count": 11
+        },
+        {
+          "name": "eu_sanctions_map",
+          "label": "EU Sanctions Map",
+          "count": 9
+        },
+        {
+          "name": "ext_gb_coh_psc",
+          "label": "UK Companies House People with Significant Control",
+          "count": 9
+        },
+        {
+          "name": "pl_mswia_sanctions",
+          "label": "Polish List of Persons and Entities Subject to Sanctions",
+          "count": 7
+        },
+        {
+          "name": "ru_nsd_isin",
+          "label": "Russian National Settlement Depository (NSD, ISIN Assignment)",
+          "count": 7
+        },
+        {
+          "name": "ext_gleif",
+          "label": "Legal Entity Identifier (LEI) Reference Data",
+          "count": 5
+        },
+        {
+          "name": "ir_uani_business_registry",
+          "label": "Iran UANI Business Registry",
+          "count": 5
+        },
+        {
+          "name": "kp_rusi_reports",
+          "label": "DPRK Reports",
+          "count": 5
+        },
+        {
+          "name": "ext_icij_offshoreleaks",
+          "label": "ICIJ Offshore Leaks Database",
+          "count": 4
+        },
+        {
+          "name": "gb_hmt_invbans",
+          "label": "UK HMT/OFSI Investment Bans",
+          "count": 4
+        },
+        {
+          "name": "jp_meti_ru",
+          "label": "Japan METI Russian List",
+          "count": 4
+        },
+        {
+          "name": "us_cia_world_leaders",
+          "label": "US CIA World Leaders",
+          "count": 4
+        },
+        {
+          "name": "cz_national_sanctions",
+          "label": "Czech Republic National Sanctions",
+          "count": 3
+        },
+        {
+          "name": "ext_eu_esma_firds",
+          "label": "EU Financial Instruments Reference Data System (FIRDS)",
+          "count": 3
+        },
+        {
+          "name": "gem_energy_ownership",
+          "label": "Global Energy Ownership Tracker",
+          "count": 3
+        },
+        {
+          "name": "iso9362_bic",
+          "label": "Business Identifier Code (BIC) Reference Data",
+          "count": 3
+        },
+        {
+          "name": "us_ofac_cons",
+          "label": "US OFAC Consolidated (non-SDN) List",
+          "count": 3
+        },
+        {
+          "name": "ee_international_sanctions",
+          "label": "Estonia International Sanctions Act List",
+          "count": 2
+        },
+        {
+          "name": "eu_esma_saris",
+          "label": "EU ESMA Suspensions and Removals",
+          "count": 2
+        },
+        {
+          "name": "ext_lv_business_register",
+          "label": "Register of Enterprises of the Republic of Latvia (Uzņēmumu reģistrs)",
+          "count": 2
+        },
+        {
+          "name": "ext_ror",
+          "label": "Research Organizations Registry",
+          "count": 2
+        },
+        {
+          "name": "lt_fiu_freezes",
+          "label": "Lithuanian International Sanctions",
+          "count": 2
+        },
+        {
+          "name": "lv_magnitsky_list",
+          "label": "Latvia's Magnitsky Law Sanctions List",
+          "count": 2
+        },
+        {
+          "name": "ru_cbr_banks",
+          "label": "Russia Banking Registry",
+          "count": 2
+        },
+        {
+          "name": "ext_cy_companies",
+          "label": "Cyprus Companies and Corporate Officers",
+          "count": 1
+        },
+        {
+          "name": "ext_ua_edr",
+          "label": "Ukraine Consolidated State Registry",
+          "count": 1
+        },
+        {
+          "name": "jp_meti_eul",
+          "label": "Japan METI End User List",
+          "count": 1
+        },
+        {
+          "name": "md_rise_profiles",
+          "label": "RISE Moldova People of interest",
+          "count": 1
+        },
+        {
+          "name": "opencorporates",
+          "label": "OpenCorporates",
+          "count": 1
+        },
+        {
+          "name": "un_ga_protocol",
+          "label": "UN Heads of State, Heads of Government and Ministers for Foreign Affairs",
+          "count": 1
+        },
+        {
+          "name": "us_bis_denied",
+          "label": "US BIS Denied Persons List",
+          "count": 1
+        },
+        {
+          "name": "us_cia_world_factbook",
+          "label": "US CIA World Factbook Heads of State and Government",
+          "count": 1
+        },
+        {
+          "name": "us_fbi_most_wanted",
+          "label": "US FBI Most Wanted",
+          "count": 1
+        }
+      ]
+    },
+    "countries": {
+      "label": "Countries",
+      "values": [
+        {
+          "name": "ru",
+          "label": "Russia",
+          "count": 615
+        },
+        {
+          "name": "suhh",
+          "label": "Soviet Union",
+          "count": 278
+        },
+        {
+          "name": "ua",
+          "label": "Ukraine",
+          "count": 44
+        },
+        {
+          "name": "by",
+          "label": "Belarus",
+          "count": 7
+        },
+        {
+          "name": "il",
+          "label": "Israel",
+          "count": 7
+        },
+        {
+          "name": "cy",
+          "label": "Cyprus",
+          "count": 6
+        },
+        {
+          "name": "kz",
+          "label": "Kazakhstan",
+          "count": 6
+        },
+        {
+          "name": "de",
+          "label": "Germany",
+          "count": 5
+        },
+        {
+          "name": "fi",
+          "label": "Finland",
+          "count": 5
+        },
+        {
+          "name": "fr",
+          "label": "France",
+          "count": 5
+        },
+        {
+          "name": "gb",
+          "label": "United Kingdom",
+          "count": 5
+        },
+        {
+          "name": "az",
+          "label": "Azerbaijan",
+          "count": 4
+        },
+        {
+          "name": "ch",
+          "label": "Switzerland",
+          "count": 4
+        },
+        {
+          "name": "uz",
+          "label": "Uzbekistan",
+          "count": 4
+        },
+        {
+          "name": "am",
+          "label": "Armenia",
+          "count": 3
+        },
+        {
+          "name": "cn",
+          "label": "China",
+          "count": 3
+        },
+        {
+          "name": "ge",
+          "label": "Georgia",
+          "count": 3
+        },
+        {
+          "name": "in",
+          "label": "India",
+          "count": 3
+        },
+        {
+          "name": "kg",
+          "label": "Kyrgyzstan",
+          "count": 3
+        },
+        {
+          "name": "ua-cri",
+          "label": "Crimea (Occupied Ukraine)",
+          "count": 3
+        },
+        {
+          "name": "ae",
+          "label": "United Arab Emirates",
+          "count": 2
+        },
+        {
+          "name": "mc",
+          "label": "Monaco",
+          "count": 2
+        },
+        {
+          "name": "md",
+          "label": "Moldova",
+          "count": 2
+        },
+        {
+          "name": "nl",
+          "label": "Netherlands",
+          "count": 2
+        },
+        {
+          "name": "us",
+          "label": "United States of America",
+          "count": 2
+        },
+        {
+          "name": "be",
+          "label": "Belgium",
+          "count": 1
+        },
+        {
+          "name": "dd",
+          "label": "East Germany",
+          "count": 1
+        },
+        {
+          "name": "dm",
+          "label": "Dominica",
+          "count": 1
+        },
+        {
+          "name": "hr",
+          "label": "Croatia",
+          "count": 1
+        },
+        {
+          "name": "it",
+          "label": "Italy",
+          "count": 1
+        },
+        {
+          "name": "jo",
+          "label": "Jordan",
+          "count": 1
+        },
+        {
+          "name": "lv",
+          "label": "Latvia",
+          "count": 1
+        },
+        {
+          "name": "md-pmr",
+          "label": "Transnistria (PMR)",
+          "count": 1
+        },
+        {
+          "name": "pt",
+          "label": "Portugal",
+          "count": 1
+        },
+        {
+          "name": "rs",
+          "label": "Serbia",
+          "count": 1
+        },
+        {
+          "name": "ua-dpr",
+          "label": "Donetsk (Occupied Ukraine)",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

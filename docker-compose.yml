@@ -1,0 +1,120 @@
+# Este documento es el compose de lo que son la bbdd OpenSanctions, el buscador elasticSearch, el servicio de consultas, el modelo y el servicio de ingestión de noticias.
+# Define 5 containers:
+# 1. Un servicio de indexación de OpenSanctions (Yente)
+# 2. Un servicio de búsqueda (Elasticsearch)
+# 3. Un cliente Python para hacer consultas a Yente
+# 4. Un modelo de lenguaje (LLM) para procesar texto (RAG y NER)
+# 5. Un servicio de ingestión de noticias en Pinecone
+
+services:
+  # Servicio de búsqueda (Elasticsearch)
+  index:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+    expose:
+      - "9200"
+    ports:
+      - "127.0.0.1:9200:9200"
+    container_name: index
+    environment:
+      - node.name=index
+      - cluster.name=opensanctions-index
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - index-os-data:/usr/share/elasticsearch/data
+    deploy:
+      placement:
+        max_replicas_per_node: 1
+      restart_policy:
+        condition: on-failure
+
+  # Servicio de indexación de OpenSanctions (Yente)
+  app-1:
+    image: ghcr.io/opensanctions/yente:4.4.0
+    container_name: app-1
+    depends_on:
+      - index
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      YENTE_INDEX_TYPE: "elasticsearch"
+      YENTE_INDEX_URL: http://index:9200
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8000/healthz" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 3s
+    deploy:
+      mode: replicated
+      # Run multiple instances for better scale:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 120s
+
+  # Servicio cliente Python para hacer las consultas
+  client:
+    build:
+      context: ./OpenSanctions/client # Le dice a Docker que construya esta imagen desde la carpeta 'client'
+      dockerfile: Dockerfile # Usa el Dockerfile que creamos en 'client/'
+    environment:
+      - YENTE_BASE_URL=http://app-1:8000
+    volumes:
+      # Este volumen mapea el directorio 'output' dentro del contenedor a una carpeta 'client/results_queries' en la máquina local
+      # Esto permite que los archivos JSON generados por el script se guarden en el PC y que cualquier archivo colocado 
+      # en 'client/scripts_queries' se copie al contenedor en '/app/scripts_queries', que es donde el cliente buscará los 
+      # scripts de consulta.
+      - ./client/output:/app/results_queries
+      - ./client/scripts_queries:/app/scripts_queries 
+    depends_on:
+      app-1: # Asegura que el servicio 'app' (Yente) esté listo antes de que el cliente se inicie
+        condition: service_healthy
+    # El comando por defecto (CMD) en el Dockerfile del cliente ya ejecuta el script, así que no necesitamos un 'command' aquí.
+
+  # Servicio de ingestión de noticias en Pinecone
+  news-ingest:
+    build: ./News
+    container_name: news-ingest
+    environment:
+      - NEWS_API_KEY=${NEWS_API_KEY}
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+    volumes:
+      - ./news_ingest/output:/app/output
+    restart: "unless-stopped"
+
+  # Servicio de RAG y NER
+  rag-api:
+    build: ./Model
+    container_name: rag-api
+    ports:
+      - "127.0.0.1:8081:8080"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+      - PINECONE_INDEX=${PINECONE_INDEX}
+      - PINECONE_EMBEDDING_MODEL=${PINECONE_EMBEDDING_MODEL}
+      - OPENSANCTIONS_CLIENT_URL=http://app-1:8000   
+      - OPENSANCTIONS_ENABLED=${OPENSANCTIONS_ENABLED:-true}
+    depends_on:
+      app-1:                                   
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+
+
+volumes:
+  index-os-data: null

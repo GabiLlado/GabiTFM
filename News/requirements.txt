@@ -1,0 +1,3 @@
+python-dotenv
+pinecone>=5.0.0
+eventregistry
