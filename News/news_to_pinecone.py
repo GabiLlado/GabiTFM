@@ -22,7 +22,7 @@ pc = Pinecone(api_key=PINECONE_API_KEY)
 q = QueryArticles(
     lang = ["spa"], # consultas solo en español
     dateStart = date.today() - timedelta(days=30), dateEnd = date.today(), # las fechas tienen que estar contenidas en el último mes para la API gratuita
-    conceptUri = er.getConceptUri(args.concept)) # Tema de consulta
+    keywords = args.concept.split(",")) # Tema de consulta
 
 # Devuelve una lista de los 100 artículos principales, incluidos los conceptos, categorías e imágenes de los artículos. page=1 si es la primera consulta
 q.setRequestedResult(RequestArticlesInfo(page = args.page, count = 100,
