@@ -6,7 +6,7 @@ import asyncio
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableParallel, RunnableLambda
 from transformers import pipeline
-from utils import model_ini, retrieve_docs, format_docs, extract_person_org, query_opensanctions, query_opensanctions_many
+from utils import model_ini, retrieve_docs, format_docs, extract_entities, query_opensanctions_many, summarize_entity_with_llm, select_os_match_llm
 
 
 parser = argparse.ArgumentParser(description="Ejecuta una consulta RAG + OpenSanctions")
@@ -21,7 +21,7 @@ retriever = retrieve_docs(num_docs=5)
 
 # Defino un prompt con el contexto, poniendo al bot en situación y haciendo la pregunta. Esto es una plantilla.
 prompt = ChatPromptTemplate.from_messages([
-    ("system", "Responde solo con el contexto. Si falta info, dilo."),
+    ("system", "Responde solo con el contexto. Si falta info, dilo, no inventes. Menciona personas y entidades relevantes con nombre completo, si aparece."),
     ("user", "Pregunta: {question}\n\nContexto:\n{context}")
 ])
 
@@ -46,7 +46,7 @@ ner = pipeline(
 # Aplico el RAG a la query, extraigo la respuesta y le aplico NER
 result = rag.invoke(args.query)
 answer_text = getattr(result, "content", str(result))
-entities = extract_person_org(ner, answer_text)
+entities = extract_entities(ner, answer_text)
 
 print("\n=== Respuesta del LLM ===")
 print(answer_text)
@@ -57,24 +57,43 @@ print(json.dumps(entities, ensure_ascii=False, indent=2))
 # Consultar en OpenSanctions tanto entidades como personas
 persons = entities.get("persons", [])
 orgs = entities.get("organizations", [])
+misc = entities.get("misc", [])
 
 # Realizo consultas en personas y organizaciones
-all_entities = persons + orgs
+all_entities = persons + orgs + misc
 if all_entities:
     try:
         os_results = asyncio.run(
             query_opensanctions_many(
                 all_entities,
                 dataset="default",
-                limit=1,
+                limit=5,
                 timeout=5.0,
                 max_concurrency=8,
             )
         )
+        decision_context = f"Pregunta del usuario: {args.query}\nRespuesta RAG: {answer_text}"
+
+        # model.py (sustituye el bloque que imprime resultados OS)
         print("\n=== Resultados OpenSanctions por entidad ===")
         for name in all_entities:
             print(f"\n--- {name} ---")
-            print(json.dumps(os_results.get(name, {}), ensure_ascii=False, indent=2))
+            data = os_results.get(name, {})
+            # print(json.dumps(data, ensure_ascii=False, indent=2))
+
+            chosen = select_os_match_llm(llm, name, data, context_text=decision_context, max_candidates=8)
+
+            if chosen:
+                # Empaquetamos como si fuera una respuesta OS con 1 resultado, para reutilizar tu summarizer
+                single = {"results": [chosen]}
+                summary = summarize_entity_with_llm(llm, name, single, language="es")
+                print("\n>>> Resumen (LLM) <<<")
+                print(summary)
+            else:
+                print("\n>>> Selección OS (LLM) <<<")
+                print("Ningún candidato coincide suficientemente con el contexto.")
+
+
     except Exception as e:
         print(f"\nError consultando OpenSanctions: {e}")
 else:

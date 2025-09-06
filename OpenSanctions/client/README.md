@@ -34,3 +34,8 @@ El `Dockerfile` es la **receta para construir la imagen de Docker** que se utili
 ### `requirements.txt`
 
 Este archivo lista todas las **aplicaciones y dependencias** necesarias para que el contenedor `client` funcione correctamente. Cuando se construye el contenedor utilizando la imagen definida en `Dockerfile`, estas dependencias se instalan automáticamente.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+curl.exe -s "http://localhost:8000/search/default?q=Putin&limit=1" | ConvertFrom-Json | ConvertTo-Json > ejemplo
