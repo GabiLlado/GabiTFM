@@ -1,8 +1,4 @@
-import os
-import json
-import httpx
-import argparse
-import asyncio
+import json, argparse, asyncio
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableParallel, RunnableLambda
 from transformers import pipeline
@@ -11,21 +7,23 @@ from utils import model_ini, retrieve_docs, format_docs, extract_entities, query
 
 parser = argparse.ArgumentParser(description="Ejecuta una consulta RAG + OpenSanctions")
 parser.add_argument("--query", required=True, help="Pregunta a realizar al modelo")
+parser.add_argument("--numdocs", default=5, type=int, help="Número de documentos a recuperar de Pinecone")
 args = parser.parse_args()
 
 # Inicializo el modelo
 llm = model_ini()
 
 # Recupero los documentos de Pinecone
-retriever = retrieve_docs(num_docs=5)
+retriever = retrieve_docs(num_docs=args.numdocs)
 
 # Defino un prompt con el contexto, poniendo al bot en situación y haciendo la pregunta. Esto es una plantilla.
 prompt = ChatPromptTemplate.from_messages([
-    ("system", "Responde solo con el contexto. Si falta info, dilo, no inventes. Menciona personas y entidades relevantes con nombre completo, si aparece."),
+    ("system", "Responde solo con el contexto. Si falta info, dilo, no inventes. "
+    "Menciona personas y entidades relevantes con nombre completo, si aparece."),
     ("user", "Pregunta: {question}\n\nContexto:\n{context}")
 ])
 
-# Construyo el pipeline para el RAG
+# Pipeline para el RAG
 rag = (
     RunnableParallel(
         context=retriever | RunnableLambda(format_docs),
@@ -51,7 +49,7 @@ entities = extract_entities(ner, answer_text)
 print("\n=== Respuesta del LLM ===")
 print(answer_text)
 
-print("\n=== Entidades (solo PERSON y ORG) ===")
+print("\n=== Entidades (solo PERSON, ORG y MISC) ===")
 print(json.dumps(entities, ensure_ascii=False, indent=2))
 
 # Consultar en OpenSanctions tanto entidades como personas
@@ -75,7 +73,7 @@ if all_entities:
         decision_context = f"Pregunta del usuario: {args.query}\nRespuesta RAG: {answer_text}"
 
         # model.py (sustituye el bloque que imprime resultados OS)
-        print("\n=== Resultados OpenSanctions por entidad ===")
+        print("\nRESULTADOS OPENSANCTIONS")
         for name in all_entities:
             print(f"\n--- {name} ---")
             data = os_results.get(name, {})
@@ -87,10 +85,8 @@ if all_entities:
                 # Empaquetamos como si fuera una respuesta OS con 1 resultado, para reutilizar tu summarizer
                 single = {"results": [chosen]}
                 summary = summarize_entity_with_llm(llm, name, single, language="es")
-                print("\n>>> Resumen (LLM) <<<")
                 print(summary)
             else:
-                print("\n>>> Selección OS (LLM) <<<")
                 print("Ningún candidato coincide suficientemente con el contexto.")
 
 
